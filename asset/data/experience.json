@@ -1,0 +1,33 @@
+[
+    {
+      "year": "2024",
+      "title": "Wonderjam",
+      "description": "I took up the WonderJam challenge (GameJam organized by UQAC and Ubisoft) with a team of five people, we created a video game in 3 days on an imposed theme.",
+      "skills": ["Teamwork", "Creativity", "Time management", "User Experience Design"]
+    },
+    {
+      "year": "2023 & 2024",
+      "title": "Inter-ISEN",
+      "description": "I organized and coordinated the Inter-ISEN 2023-2024, an inter-school LAN bringing together the campuses of Lille, Rennes, Brest, Nantes, Caen, Bordeaux, Paris, Marseille and Toulon, managing event design, logistical planning and the smooth running of the tournament.",
+      "skills": ["Project management", "Coordination and leadership", "Logistics organization", "Communication"]
+    },
+    {
+      "year": "2023",
+      "title": "Super U",
+      "description": "In 2023, I worked as a self-service employee at Super U (July-August), stocking shelves, managing stock and providing customer service.",
+      "skills": ["Organization and rigor", "Customer relations and service", "Teamwork", "Adaptability"]
+    },
+    {
+      "year": "2023",
+      "title": "Emmaüs",
+      "description": "I did an internship with Emmaüs, where I sorted and shelved items, sold them in the store and organized the transport of goods to collection points.",
+      "skills": ["Customer relations", "Organizational skills", "Teamwork", "Adaptability"]
+    },
+    {
+      "year": "2022",
+      "title": "Restos du Cœur",
+      "description": "In 2022, I did an associative internship at Restos du Cœur, taking part in food distribution, outreach programs, and receiving/sorting donations.",
+      "skills": ["Social commitment", "Organizational skills", "Taking the initiative", "Teamwork"]
+    }
+  ]
+  

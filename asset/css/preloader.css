@@ -1,0 +1,136 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+:root {
+  --dark--foreground: #1c211e;
+  --dark--main: #e3f7d3;
+  --text-opacity\<deleted\|variable-c87bef24\>: #dce1d852;
+  --dark--interactive: #7e8b74;
+  --dark--opa: #1c211ed9;
+  --black: #171717;
+  --antique-white: #dfd3c3;
+  --Light-grayish-orange: #eeecea;
+  --grey: #909090;
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+  min-height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--antique-white);
+  font-family: Basis grotesque, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body:hover .cursor {
+  opacity: 1;
+}
+
+.preloader {
+  z-index: 10000;
+  background-color: var(--black);
+  justify-content: center;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.preloader.hidden {
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--background-transition);
+}
+
+.preloader-content {
+  grid-template-rows: auto;
+  grid-template-columns: 2.75fr;
+  grid-auto-columns: 1fr;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: stretch;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  opacity: 1;
+
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+}
+
+.preloader-text {
+  color: var(--light-grayish-orange);
+  text-align: center;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 40px;
+  line-height: 55px;
+  opacity: 1;
+  transition: opacity 0.3s ease-out, font-size 0.8s ease-out;
+}
+
+.preloader-text.fade {
+  color: var(--dark--foreground);
+  opacity: 0;
+}
+
+.preloader-text.ogg {
+  font-family: Ogg, sans-serif;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease-out, font-size 0.8s ease-out;
+}
+
+.preloader-indicator {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+}
+
+.indacator-fill {
+  background-color: var(--antique-white);
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  
+}
+
+.ogg {
+  font-family: Ogg, sans-serif;
+  
+}
