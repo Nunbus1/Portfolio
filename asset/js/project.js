@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ".type-project .about-project:nth-child(2) h2"
       );
       if (languageElement) {
-        languageElement.innerHTML = project.langage.join("<br>");
+        languageElement.innerHTML = project.langage.join("<br><br>");
       }
 
       // Mettre à jour la date dans le deuxième h2
