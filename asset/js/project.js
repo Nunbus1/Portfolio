@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Charger le fichier JSON
-  fetch("/asset/data/project.json")
+  fetch("asset/data/project.json")
     .then((response) => response.json())
     .then((projects) => {
       // Trouver l'index du projet actuel

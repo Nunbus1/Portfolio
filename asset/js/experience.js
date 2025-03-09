@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('../asset/data/experience.json')
+    fetch('asset/data/experience.json')
       .then(response => response.json())
       .then(experiences => {
         const sectionContainers = document.querySelectorAll('.section-work');

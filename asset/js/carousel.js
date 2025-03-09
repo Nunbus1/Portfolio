@@ -2,7 +2,7 @@
     var slidersContainer = document.querySelector('.sliders-container');
     var pagination = document.querySelector('.pagination');
 
-    fetch('../asset/data/project.json')
+    fetch('asset/data/project.json')
       .then(response => response.json())
       .then(projects => {
         var projectCount = projects.length;
