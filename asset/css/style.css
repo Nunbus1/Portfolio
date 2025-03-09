@@ -3359,6 +3359,11 @@ img {
   text-align: left;
 }
 
+.h2.t-anim
+{
+  text-decoration: underline;
+}
+
 .paragraph-dark {
   color: var(--black);
 }

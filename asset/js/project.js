@@ -114,11 +114,18 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelectorAll(".testimony .t-anim");
       if (testimonyParagraphs.length >= 2) {
         testimonyParagraphs[0].textContent = "Liens vers le projet :";
-        testimonyParagraphs[1].textContent = project.name;
-        testimonyParagraphs[1].style.cursor = "pointer";
-        testimonyParagraphs[1].addEventListener("click", function () {
-          window.location.href = project.liens;
-        });
+        if (project.liens) {
+          testimonyParagraphs[1].textContent = project.name;
+          testimonyParagraphs[1].style.cursor = "pointer";
+          testimonyParagraphs[1].style.textDecoration = "underline";
+          
+          testimonyParagraphs[1].addEventListener("click", function () {
+            window.location.href = project.liens;
+          });
+        } else {
+          testimonyParagraphs[1].textContent = "Liens indisponible pour le moment";
+          testimonyParagraphs[1].style.cursor = "default";
+        }
       }
 
       // Gérer le projet suivant
