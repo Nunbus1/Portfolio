@@ -107,7 +107,7 @@
         "apercu": "J’ai relevé le défi de la WonderJam Automne, une Game Jam organisée par l’UQAC et Ubisoft, en développant un jeu vidéo en 48 heures avec une équipe de cinq personnes. Le thème principal était dimension, auquel nous avons ajouté des mécaniques supplémentaires : joueur contre joueur, maniaque et aide ton allié. Notre jeu met en scène Dee et Mension, deux personnages perdus dans une grotte depuis plusieurs jours. Affaiblis par la faim et la solitude, ils sombrent dans la folie et commencent à voir des fantômes issus d’une autre dimension, apparaissant dans l’obscurité dès qu’ils détournent leur regard. Pour se défendre, ils utilisent d’étranges lampes mystiques, capables de révéler ces entités et de les repousser dans leur dimension d’origine. Le but du jeu est donc de se déplacer intelligemment dans sa zone tout en éclairant les environs afin d’éviter d’être attaqué. Le premier des deux joueurs qui n'a plus de vie perd la partie. Qui sera le dernier en vie ? Ce projet m’a permis de renforcer mes compétences en développement rapide de jeux sous pression, en game design et en travail d’équipe, tout en explorant des mécaniques asymétriques et stratégiques.",
         "liens": "https://tea-enjoyers.itch.io/doomension",
         "image1": "../asset/img/project/doomension/img1.png",
-        "image2": "",
+        "image2": "../asset/img/project/doomension/img2.png",
         "image3": "",
         "video": ""
     },
@@ -147,7 +147,7 @@
     {
         "id": "10",
         "name": "Moteur physique",
-        "image_profil": "",
+        "image_profil": "../asset/img/project/Moteur/img0.png",
         "langage": ["C++", "OpenFramework"],
         "date": "2024-01",
         "role": ["Developer"],
@@ -155,9 +155,9 @@
         "equipe": "Groupe de 4",
         "apercu": "Ce projet, réalisé sur un trimestre en groupe de quatre personnes, avait pour objectif de développer un moteur de jeu physique et mathématique en C++. Nous avons conçu un moteur capable de simuler différents concepts physiques essentiels, permettant d’appliquer des interactions réalistes aux objets du jeu. Nous avons implémenté plusieurs fonctionnalités fondamentales. La gestion des rigidbodies permettait de simuler des mouvements et des collisions réalistes en tenant compte des forces appliquées aux objets. Les systèmes de ressorts ont été intégrés pour modéliser des comportements dynamiques et apporter davantage de réalisme aux simulations physiques. Nous avons également utilisé des bounding boxes pour la détection des collisions et l’optimisation des calculs, garantissant ainsi une meilleure efficacité du moteur. Enfin, la résolution des forces et des frottements a été mise en place pour affiner la simulation des objets en mouvement et améliorer la précision des interactions. Ce projet m’a permis d’approfondir ma compréhension des principes de physique appliqués aux jeux vidéo, tout en consolidant mes compétences en programmation C++ et en conception de moteur de jeu. Travailler sur un moteur from scratch m’a apporté une meilleure maîtrise des calculs mathématiques liés aux simulations physiques et de l’optimisation des performances pour garantir une exécution fluide et efficace.",
         "liens": "https://github.com/Artyu24/Moteur-Physique-SonicTeam",
-        "image1": "",
-        "image2": "",
-        "image3": "",
+        "image1": "../asset/img/project/Moteur/img1.png",
+        "image2": "../asset/img/project/Moteur/img2.png",
+        "image3": "../asset/img/project/Moteur/img3.png",
         "video": ""
     },
     {
