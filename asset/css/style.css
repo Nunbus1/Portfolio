@@ -3910,23 +3910,42 @@ img {
 
 @media screen and (max-width: 991px) {
   h2 {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 70px;
+    line-height: 110px;
   }
 
   h3 {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 40px;
+    line-height: 56px;
   }
 
   p {
     text-align: left;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .image-wrapper.profile
+  {
+    max-width: 900px;
+  }
+
+  .logo-wrapper.w-inline-block.w--current{
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .logo-text{
+    font-size: 30px;
+  }
+
+  .red-subtitle{
+    font-size: 40px;
   }
 
   .section-work {
-    min-height: 100vh;
+    min-height: 50vh;
   }
 
   .navbar {
@@ -3937,12 +3956,12 @@ img {
   }
 
   .footer {
-    justify-content: space-between;
-    padding: 40px 0 0;
+    justify-content: space-around;
+    padding: 0 0 0;
   }
 
   .rotating-link {
-    height: 25px;
+    height: 50px;
   }
 
   .flex2col {
@@ -3954,8 +3973,8 @@ img {
   }
 
   .divider-line {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .clients-logo-wrapper {
@@ -3980,21 +3999,21 @@ img {
   }
 
   .project-wrapper {
-    margin-left: 30px;
+    margin-left: 60px;
   }
 
   .project-title {
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 40px;
+    line-height: 46px;
   }
 
   .project-description {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 40px;
   }
 
   .project-content {
-    padding: 10px;
+    padding: 20px;
   }
 
   .card {
@@ -4006,13 +4025,13 @@ img {
   }
 
   .horizontal-text {
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 100px;
+    line-height: 110px;
   }
 
   .services-heading {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 60px;
+    line-height: 80px;
   }
 
   .image-block {
@@ -4025,10 +4044,10 @@ img {
 
   .folio-text {
     display: block;
-    top: 28px;
+    top: 56px;
     bottom: auto;
     left: auto;
-    right: -55px;
+    right: -110px;
     transform: rotate(-90deg);
   }
 
@@ -4038,21 +4057,21 @@ img {
   }
 
   .custom-wrapper {
-    width: 350px;
+    width: 700px;
   }
 
   .hero-heading-line-1 {
-    right: 31px;
+    right: 42px;
   }
 
   .hero-heading-line-2 {
-    left: 10px;
+    left: 20px;
   }
 
   .section-hero {
     perspective: none;
-    min-height: 100vh;
-    padding: 30px;
+    min-height: 50vh;
+    padding: 60px;
   }
 
   .subtitle-holder {
@@ -4060,7 +4079,7 @@ img {
   }
 
   .flexcol {
-    margin-top: 25px;
+    margin-top: 50px;
     padding: 0;
   }
 
@@ -4079,12 +4098,12 @@ img {
 
   .custom-wrapper-2 {
     justify-content: flex-start;
-    margin-top: 59px;
+    margin-top: 108px;
   }
 
   .text-fill-link {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 90px;
+    line-height: 110px;
   }
 
   .centeralign {
@@ -4096,34 +4115,36 @@ img {
   }
 
   .arrow {
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 160px;
     padding: 0;
   }
 
   .arrow.slider-prev {
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   .nav-link {
-    height: 25px;
+    top: 30px;
+    height: 30px;
+    font-size: 40px;
   }
 
   .lottie-ellipse {
-    top: -280px;
+    top: -560px;
   }
 
   .horizontal-line {
-    width: 60px;
+    width: 120px;
   }
 
   .services-number-holder {
-    margin-top: -32px;
+    margin-top: -64px;
   }
 
   .project-number {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 40px;
   }
 
   .bold-underline {
@@ -4132,8 +4153,42 @@ img {
   }
 
   .section-services {
-    min-height: 100vh;
+    min-height: 50vh;
   }
+
+  .expanding-layer{
+    height: 5351.75px;
+  }
+
+  .flex2col.customalign{
+    position: relative;
+    top: 100px;
+  }
+
+  .circle-container{
+   
+    width: 300px;
+  }
+
+  .paragraph-dark{
+    font-size: 30px;
+  }
+  
+  .text-fill-link{
+    font-size: 80px;
+  }
+
+  .visible-link.dark{
+    
+    height: 50px;
+    font-size: 40px;
+  }
+
+  .hidden-link.dark
+  {
+    opacity: 0%;
+  }
+
 }
 
 @media screen and (max-width: 767px) {

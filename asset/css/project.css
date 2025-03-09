@@ -3707,7 +3707,7 @@ a {
     }
 
     .paragraph-2.center {
-        top: -52px
+        top: -104px
     }
 
     .heading-giant {
@@ -3778,7 +3778,7 @@ a {
 
     .baseline {
         padding-top: 0;
-        padding-bottom: 100px
+        padding-bottom: 200px
     }
 
     .img-container.h-about {
@@ -3807,7 +3807,7 @@ a {
         grid-template-rows: auto;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-auto-columns: 1fr;
-        padding-top: 68px;
+        padding-top: 136px;
         display: grid
     }
 
@@ -3833,7 +3833,7 @@ a {
     }
 
     .next-wrapper {
-        grid-row-gap: 52px;
+        grid-row-gap: 104px;
         flex-direction: column;
         grid-template-rows: minmax(auto,1fr) minmax(auto,1fr);
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -3857,13 +3857,13 @@ a {
     }
 
     .anim-pro {
-        grid-row-gap: 32px;
+        grid-row-gap: 64px;
         align-self: stretch;
         align-items: flex-start
     }
 
     .project-main {
-        width: 450px
+        width: 900px
     }
 
     .footer {
@@ -3871,11 +3871,11 @@ a {
     }
 
     .links-f {
-        margin-top: 40px
+        margin-top: 80px
     }
 
     .about-hero {
-        grid-row-gap: 80px;
+        grid-row-gap: 160px;
         grid-template-rows: auto auto;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         padding-top: 16vh
