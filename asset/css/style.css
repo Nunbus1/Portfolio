@@ -156,7 +156,7 @@ svg:not(:root) {
 }
 .presentation {
   grid-column-gap: 2vw;
-  grid-row-gap: 10vw;
+  grid-row-gap: 5vw;
   grid-template-rows: auto auto auto auto auto auto auto auto;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -2731,10 +2731,12 @@ img {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: relative;
 }
+
+
 
 .mycontain.nav {
   justify-content: space-between;
@@ -3290,7 +3292,7 @@ img {
   color: var(--Light-grayish-orange);
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 26px;
 }
