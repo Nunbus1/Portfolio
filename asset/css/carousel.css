@@ -151,8 +151,24 @@
 }
 .ms--titles .ms-slide h3 {
   margin: 0;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 4px black;
+  position: relative;
+  padding: 10px 15px;
 }
+
+.ms--titles .ms-slide h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.103); /* Assombrir légèrement */
+  backdrop-filter: blur(5px); /* Applique le flou */
+  z-index: -1;
+  border-radius: 5px;
+}
+
 
 .ms--links {
   position: relative;
