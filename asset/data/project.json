@@ -191,5 +191,22 @@
         "image2": "asset/img/project/Jeu_Reseau/img2.png",
         "image3": "asset/img/project/Jeu_Reseau/img3.png",
         "video": ""
+    },
+    {
+        "id": "13",
+        "name": "Strider",
+        "image_profil": "asset/img/project/Strider/img0.png",
+        "langage": ["Kotlin", "Compose", "Firestore"],
+        "date": "2025-01",
+        "role": ["Développeur back-end", "Développeur front-end", "Gestion base de données"],
+        "duree": 75,
+        "equipe": "Équipe de 3",
+        "apercu": "Strider est une application mobile de course à pied entre amis développée en Kotlin avec Jetpack Compose et Firestore. En tant que développeur principal, j'ai conçu à la fois le back-end et le front-end de l’application, ainsi que la base de données. Ce projet avait pour but de permettre aux utilisateurs de créer des parties multijoueurs, de courir en temps réel avec un suivi de progression, et de visualiser leurs performances à travers des graphes interactifs. Travailler sur Strider m’a permis d’approfondir mes compétences en développement mobile, en gestion d’état avec Compose, et en structuration de données cloud via Firestore. Ce projet illustre ma capacité à concevoir une application complète, optimisée pour une expérience utilisateur fluide et engageante.",
+        "liens": "https://github.com/Nunbus1/Strider",
+        "image1": "asset/img/project/Strider/img1.png",
+        "image2": "asset/img/project/Strider/img2.png",
+        "image3": "asset/img/project/Strider/img3.png",
+        "video": "https://www.youtube.com/watch?v=TonqYYkht5I"
     }
+    
 ]
